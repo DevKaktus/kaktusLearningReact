@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<form class="form">
+    <div class="form__control">
+        <input type="text" id="input-1" class="form__input" name="input-1" placeholder="Введите ФИО">
+        <label class="form__label" for="input-1">ФИО</label>
+    </div>
+    <div class="form__control">
+        <input type="email" id="input-2" class="form__input" name="input-2" placeholder="Введите e-mail" required>
+        <label class="form__label" for="input-2">E-mail</label>
+    </div>
+    <div class="form__control">
+        <div class="form__radio-wrapper">
+            <input class="form__radio input__hidden" type="radio" id="input-3" name="gender" value="woman">
+            <div class="form__radio-marker"></div>
+            <label class="form__label" for="input-3">Мужчина</label>
+        </div>
+        <div class="form__radio-wrapper">
+            <input class="form__radio input__hidden" type="radio" id="input-3" name="gender" value="man">
+            <div class="form__radio-marker"></div>
+            <label class="form__label" for="input-3">Женщина</label>
+        </div>
+    </div>
+    <div class="form__control">
+        <div class="form__file-wrapper">
+            <input type="file" name="file" class="form__file input__hidden" id="input-4">
+            <button class="form__button">Загрузить файл</button>
+        </div>
+    </div>
+    <div class="form__control">
+        <div class="form__checkbox-wrapper">
+            <input class="form__checkbox input__hidden" type="checkbox" id="input-5" required>
+            <div class="form__checkbox-marker"></div>
+            <label class="form__label form__label_checkbox" for="input-5">Соглашение конфиденциальности</label>
+        </div>
+    </div>
+    <button class="form__button form__button_submit">Отправить</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

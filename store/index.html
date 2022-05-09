@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dist/style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+    <img class="header__logo" src="https://i.ibb.co/nkD5KX4/logo.png">
+    <h1 class="header__text">Интернет-магазин</h1>
+    <nav class="navigation">
+        <div class="navigation__block">
+            <a class="navigation__link" href="#popup">Регистрация</a>
+        </div>
+    <div class="navigation__block">
+            <a class="navigation__link" href="#">Ссылка</a>
+        </div>
+    </nav>
+</header>
+
+<main class="main">
+    <div class="container">
+<!--        <div class="card">-->
+<!--            <img class="card__image" src="https://i.ibb.co/RyvHjyk/preview.png">-->
+<!--            <span class="card__name">Кросcовки</span>-->
+<!--        </div>-->
+<!--        <div class="card">-->
+<!--            <img class="card__image" src="https://i.ibb.co/RyvHjyk/preview.png">-->
+<!--            <span class="card__name">Кросcовки</span>-->
+<!--        </div>-->
+<!--        <div class="card">-->
+<!--            <img class="card__image" src="https://i.ibb.co/RyvHjyk/preview.png">-->
+<!--            <span class="card__name">Кросcовки</span>-->
+<!--        </div>-->
+<!--        <div class="card">-->
+<!--            <img class="card__image" src="https://i.ibb.co/RyvHjyk/preview.png">-->
+<!--            <span class="card__name">Кросcовки</span>-->
+<!--        </div>-->
+<!--        <div class="card">-->
+<!--            <img class="card__image" src="https://i.ibb.co/RyvHjyk/preview.png">-->
+<!--            <span class="card__name">Кросcовки</span>-->
+<!--        </div>-->
+<!--        <div class="card">-->
+<!--            <img class="card__image" src="https://i.ibb.co/RyvHjyk/preview.png">-->
+<!--            <span class="card__name">Кросcовки</span>-->
+<!--        </div>-->
+<!--        <div class="card">-->
+<!--            <img class="card__image" src="https://i.ibb.co/RyvHjyk/preview.png">-->
+<!--            <span class="card__name">Кросcовки</span>-->
+<!--        </div>-->
+
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__column">
+            <h3>Категории товаров</h3>
+            <ul class="footer__column-list">
+                <li class="list__element"><a class="list__element-link" href="#">Обувь</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">Одежда</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">Аксессуары</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">Бытовая техника</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">Электроника</a></li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <h3>Разделы сайта</h3>
+            <ul class="footer__column-list">
+                <li class="list__element"><a class="list__element-link" href="#">Магазин</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">Контакты</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">Блог</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">Политика конфиденциальности</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">Договор оферты</a></li>
+                <li class="list__element"><a class="list__element-link" href="#">О Нас</a></li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <h3>Полезные ссылки</h3>
+            <ul class="footer__column-list">
+                <li class="list__element"><a class="list__element-link" href="https://www.google.com/" target="_blank" rel="nofollow noopener noreferrer">Google.com</a></li>
+                <li class="list__element"><a class="list__element-link" href="https://yandex.ru/" target="_blank" rel="nofollow noopener noreferrer">yandex.ru</a></li>
+                <li class="list__element"><a class="list__element-link" href="https://developer.mozilla.org/" target="_blank" rel="nofollow noopener noreferrer">developer.mozilla.org</a></li>
+            </ul>
+        </div>
+        <div class="footer__column-right">
+            <img class="footer__logo" src="https://i.ibb.co/nkD5KX4/logo.png">
+            <span class="copyright">&copy Vitaliy Anisimov</span>
+        </div>
+    </div>
+</footer>
+
+<div id="popup" class="popup">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#header" class="popup__close">X</a>
+            <div class="popup__form-container">
+                <form class="form">
+                    <div class="form__control">
+                        <input type="text" id="input-1" class="form__input" name="input-1" placeholder="Введите ФИО" required>
+                        <label class="form__label" for="input-1">ФИО</label>
+                    </div>
+                    <span class="form__warning-name">Обязательное поле</span>
+                    <div class="form__control">
+                        <input type="email" id="input-2" class="form__input" name="input-2" placeholder="Введите e-mail" required>
+                        <label class="form__label" for="input-2">E-mail</label>
+                    </div>
+                    <span class="form__warning-incorrectemail">Некорректный email</span>
+                    <span class="form__warning-email">Введите email</span>
+                    <div class="form__control">
+                        <div class="form__radio-wrapper">
+                            <input class="form__radio input__hidden" type="radio" id="input-3.3" name="gender" value="Helicopter">
+                            <div class="form__radio-marker"></div>
+                            <label class="form__label" for="input-3.3">Боевой вертолёт</label>
+                        </div>
+                        <div class="form__radio-wrapper">
+                            <input class="form__radio input__hidden" type="radio" id="input-3.2" name="gender" value="woman">
+                            <div class="form__radio-marker"></div>
+                            <label class="form__label" for="input-3.2">Женщина</label>
+                        </div>
+                        <div class="form__radio-wrapper">
+                            <input class="form__radio input__hidden" type="radio" id="input-3.1" name="gender" value="man">
+                            <div class="form__radio-marker"></div>
+                            <label class="form__label" for="input-3.1">Мужчина</label>
+                        </div>
+                    </div>
+                    <div class="form__control">
+                        <div class="form__file-wrapper">
+                            <input type="file" name="file" class="form__file input__hidden" id="input-4">
+                            <button class="form__button">Загрузить файл</button>
+                        </div>
+                    </div>
+                    <div class="form__control">
+                        <div class="form__checkbox-wrapper">
+                            <input class="form__checkbox input__hidden" type="checkbox" id="input-5" required>
+                            <div class="form__checkbox-marker"></div>
+                            <label class="form__label form__label_checkbox" for="input-5">Соглашение конфиденциальности</label>
+                        </div>
+                    </div>
+                    <span class="form__warning-checkbox">Необходимо согласие</span>
+                    <button class="form__button form__button_submit" formnovalidate>Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
